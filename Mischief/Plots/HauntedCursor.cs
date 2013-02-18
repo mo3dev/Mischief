@@ -19,10 +19,10 @@ namespace Mischief.Plots
             var screen = System.Windows.Forms.Screen.FromPoint(Cursor.Position).WorkingArea;
             Point center = new Point(screen.Left + screen.Width / 2, screen.Top + screen.Height / 2);
 
-            for (int i = 0; i < 300; i++)
+            for (int i = 0; i < screen.Width; i++)
             {
-                SetCursorPos(center.X + i, center.Y);
-                System.Threading.Thread.Sleep(10);
+                SetCursorPos(i, center.Y);
+                System.Threading.Thread.Sleep(2);
             }
         }
     }
