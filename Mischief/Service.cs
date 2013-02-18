@@ -23,7 +23,7 @@ namespace Mischief
         {
             // TODO: log
             // start a timer, to run a random plot at the specified timer interval
-            mischiefTimer = new Timer(60000);
+            mischiefTimer = new Timer(3600000);
 
             // the random plot will be run by the timer event handler
             mischiefTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
