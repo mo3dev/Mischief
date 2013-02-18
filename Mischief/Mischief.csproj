@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IPlot.cs" />
+    <Compile Include="Plots\MouseBtnSwitcher.cs" />
     <Compile Include="Plots\WallCager.cs" />
     <Compile Include="Service.cs">
       <SubType>Component</SubType>
