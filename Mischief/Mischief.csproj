@@ -51,6 +51,7 @@
     <Compile Include="IPlot.cs" />
     <Compile Include="Plots\HauntedCursor.cs" />
     <Compile Include="Plots\MouseBtnSwitcher.cs" />
+    <Compile Include="Plots\RotateScreen.cs" />
     <Compile Include="Plots\WallCager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
