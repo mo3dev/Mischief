@@ -16,7 +16,7 @@ namespace Mischief.Plots
         public void Plot()
         {
             // move the mouse cursor (pointer) across the current screen from the center
-            var screen = System.Windows.Forms.Screen.FromPoint(Cursor.Position).WorkingArea;
+            Rectangle screen = Screen.FromPoint(Cursor.Position).WorkingArea;
             Point center = new Point(screen.Left + screen.Width / 2, screen.Top + screen.Height / 2);
 
             for (int i = 0; i < screen.Width; i++)

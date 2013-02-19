@@ -14,7 +14,7 @@ namespace Mischief.Plots
         public void Plot()
         {
             // swap mouse buttons (0 = normal, 1 = swap)
-            SwapMouseButton(1);
+            SwapMouseButton(0);
         }
     }
 }
