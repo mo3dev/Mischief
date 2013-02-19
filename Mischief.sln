@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mischief", "Mischief\Mischief.csproj", "{793EF35D-3B06-4D02-A3B7-BB9E70111CDB}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WinSvcHostInstaller", "WinSvcHostInstaller\WinSvcHostInstaller.vdproj", "{002E2E5C-D2B9-4BBC-B111-27132F2C893F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mischief", "Mischief\Mischief.csproj", "{9066C5CE-7A6E-4CCF-AAA9-DBDF68651708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +9,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{793EF35D-3B06-4D02-A3B7-BB9E70111CDB}.Debug|x86.ActiveCfg = Debug|x86
-		{793EF35D-3B06-4D02-A3B7-BB9E70111CDB}.Debug|x86.Build.0 = Debug|x86
-		{793EF35D-3B06-4D02-A3B7-BB9E70111CDB}.Release|x86.ActiveCfg = Release|x86
-		{793EF35D-3B06-4D02-A3B7-BB9E70111CDB}.Release|x86.Build.0 = Release|x86
-		{002E2E5C-D2B9-4BBC-B111-27132F2C893F}.Debug|x86.ActiveCfg = Debug
-		{002E2E5C-D2B9-4BBC-B111-27132F2C893F}.Release|x86.ActiveCfg = Release
+		{9066C5CE-7A6E-4CCF-AAA9-DBDF68651708}.Debug|x86.ActiveCfg = Debug|x86
+		{9066C5CE-7A6E-4CCF-AAA9-DBDF68651708}.Debug|x86.Build.0 = Debug|x86
+		{9066C5CE-7A6E-4CCF-AAA9-DBDF68651708}.Release|x86.ActiveCfg = Release|x86
+		{9066C5CE-7A6E-4CCF-AAA9-DBDF68651708}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
