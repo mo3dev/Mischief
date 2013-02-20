@@ -10,7 +10,8 @@ namespace Mischief
     {
         static void Main(string[] args)
         {
-            RandomPlot();
+            //RandomPlot();
+            new ScreenFlipper().Plot();
         }
 
 
