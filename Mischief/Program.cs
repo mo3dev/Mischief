@@ -11,7 +11,7 @@ namespace Mischief
         static void Main(string[] args)
         {
             //RandomPlot();
-            new WorkstationLocker().Plot();
+            new AlertMaddness().Plot();
         }
 
 

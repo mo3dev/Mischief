@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IPlot.cs" />
+    <Compile Include="Plots\AlertMaddness.cs" />
     <Compile Include="Plots\HauntedCursor.cs" />
     <Compile Include="Plots\MouseBtnSwitcher.cs" />
     <Compile Include="Plots\ScreenFlipper.cs" />
