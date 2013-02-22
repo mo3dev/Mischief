@@ -4,7 +4,7 @@ using Mischief.Utils;
 
 namespace Mischief.Plots
 {
-    class ScreenFlipper
+    class ScreenFlipper : IPlot
     {
         public void Plot()
         {

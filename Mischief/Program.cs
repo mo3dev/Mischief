@@ -11,7 +11,7 @@ namespace Mischief
         static void Main(string[] args)
         {
             //RandomPlot();
-            new AlertMaddness().Plot();
+            new BirdFlipper().Plot();
         }
 
 

@@ -22,7 +22,7 @@ namespace Mischief.Plots
             Uri randomImage = links.ElementAt(new Random().Next(links.Count()));
 
             // download and save the image in the temp directory
-            string fileName = Path.Combine(Path.GetTempPath(), "cage" + ".jpg");
+            string fileName = Path.Combine(Path.GetTempPath(), "cage.jpg");
             using (WebClient client = new WebClient())
             {
                 client.DownloadFile(randomImage, fileName);
