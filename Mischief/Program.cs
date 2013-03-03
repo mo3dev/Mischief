@@ -11,7 +11,7 @@ namespace Mischief
         static void Main(string[] args)
         {
             //RandomPlot();
-            new BirdFlipper().Plot();
+            new CDTrayOpener().Plot();
         }
 
 
